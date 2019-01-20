@@ -1,7 +1,7 @@
 language: csharp
 solution: SilverTongue.sln
 mono: none
-dotnet: 2.2.0
+dotnet: 2.1.401
 os:
   - linux
   - osx
