@@ -1,0 +1,12 @@
+language: csharp
+solution: SilverTongue.sln
+mono: none
+dotnet: 2.2.0
+os:
+  - linux
+  - osx
+install:
+  - dotnet restore
+script:
+  - dotnet build
+  - dotnet test ProjectCeilidh.SilverTongue.Tests/ProjectCeilidh.SilverTongue.Tests.csproj
